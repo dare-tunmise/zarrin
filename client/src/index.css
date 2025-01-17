@@ -204,7 +204,7 @@ header > nav > ul > li > a.button {
     "item1 item1 item1"
     "item2 item3 item4";
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 10px; /* Adjust gap between grid items if needed */
+  gap: 2rem; /* Adjust gap between grid items if needed */
 }
 
 .grid-item {
@@ -239,6 +239,37 @@ header > nav > ul > li > a.button {
   font-family: "Raleway", serif;
   padding: 3rem;
   border-radius: 1rem;
+}
+
+.item1 > .item1-content > .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.item1 > .item1-content > .header > span {
+  color: #333333;
+  margin-left: 1rem;
+}
+
+.item1 > .item1-content > h2 {
+  margin-bottom: 2rem;
+
+}
+
+.item1 > .item1-content > p {
+  margin-bottom: 2rem;
+  line-height: 200%;
+}
+
+.item1 > .item1-content > a {
+  text-decoration: none;
+  color: #7C4EE4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #7C4EE4;
+  height: 56px;
+  width: 180px;
 }
 
 
