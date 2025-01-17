@@ -14,16 +14,18 @@ header > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 4rem;
 }
 
 header > nav > .logo {
   display: flex;
   align-items: center;
 }
+
 header > nav > .logo > span {
   font-family: "Raleway", serif;
   color: #150E06;
+  margin-left: 1rem;
   font-size: 2rem;
   font-weight: 800;
 }
@@ -34,8 +36,9 @@ header > nav > ul > li {
     margin: 0 1.5rem;
 }
 
-header > nav > ul > li.button {
-
+header > nav > ul > li > i {
+  font-size: 1rem;
+  color: #333333;
 }
 
 header > nav > ul > li > a {
@@ -55,4 +58,45 @@ header > nav > ul > li > a.button {
   border-radius: 8px;
   height: 56px;
   width: 180px;
+}
+
+.hero {
+  background-image: url(../src/assets/bottom-vector.png), url(../src/assets/bottom-vector.png);
+  background-color: #7C4EE4;
+  color: #FFFFFF;
+  font-family: "Raleway", serif;
+  display: flex;
+  align-items: start;
+  padding: 7rem 4rem;
+  gap: 5rem;
+}
+
+.hero > .hero-text {
+}
+
+.hero > .hero-text > h5 {
+  margin-bottom: 3rem;
+}
+
+.hero > .hero-text > h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.hero > .hero-text > p {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  line-height: 200%;
+}
+
+.hero > .hero-text > a {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  height: 56px;
+  width: 180px;
+
 }
