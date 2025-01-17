@@ -13,7 +13,7 @@ const Navbar = () => {
                     <li><a className='active' href="">Blog</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Search</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a className='button' href="">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
