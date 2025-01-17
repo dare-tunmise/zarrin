@@ -136,10 +136,12 @@ header > nav > ul > li > a.button {
   font-family: "Raleway", serif;
   position: absolute;
   height: 360px;
-  width: 960px;
+  max-width: 960px;
+  width: 100%;
   padding: 3rem;
   background-color: #FFFFFF;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   top: 60%;
   right: 0;
 }
@@ -162,6 +164,7 @@ header > nav > ul > li > a.button {
 .features > .feature > .featured-post > p {
   margin-bottom: 2rem;
   line-height: 200%;
+  color: #666666;
 }
 
 .features > .feature > .featured-post > a {
@@ -234,14 +237,6 @@ header > nav > ul > li > a.button {
   grid-row: 2;
 }
 
-
-
-.grid-item {
-  /* background-color: lightgray;
-  border: 1px solid #ccc; */
-  /* padding: 20px;
-  text-align: center; */
-}
 
 .item1 {
   grid-area: item1;
@@ -320,7 +315,7 @@ header > nav > ul > li > a.button {
 
 .item2 > .item1-content {
   font-family: "Raleway", serif;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 0;
   border-radius: 1rem;
 }
 
@@ -345,14 +340,16 @@ header > nav > ul > li > a.button {
   line-height: 200%;
 }
 
+
+
 .item2 > .item1-content > a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #7C4EE4;
-  padding: 10px 20px;
+  /* padding: 10px 20px;
   border-radius: 8px;
   border: 2px solid #7C4EE4;
   height: 56px;
-  width: 180px;
+  width: 180px; */
 }
 
 /* .item3 {
@@ -393,6 +390,28 @@ header > nav > ul > li > a.button {
   grid-column: 7/12;
   grid-row: 2;
 } */
+
+.popular {
+  font-family: "Raleway", serif;
+  width: 100%;
+  padding: 7rem 4rem;
+}
+
+.popular > .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.popular > .header > a {
+  text-decoration: none;
+  background-color: #7C4EE4;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #7C4EE4;
+}
 
 
 
