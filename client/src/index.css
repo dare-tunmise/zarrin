@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #E2E2E2;
+}
+
 header {
   background-color: #FFFFFF;
   font-family: "Raleway", serif;
@@ -105,23 +109,70 @@ header > nav > ul > li > a.button {
 
 .features {
   width: 100%;
-  background-color: red;
   padding: 7rem 4rem;
+  box-sizing: border-box;
 }
 
 .features > .feature {
+  position: relative;
 }
 
 .features > .feature > .featured-img  {
   width: 100%;
   height: 576px;
-  overflow: hidden;
-  border-radius: 5px;
+  border-radius: 1rem;
   flex-shrink: 0;
+  background-color: yellow;
 }
 
 .features > .feature > .featured-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 1rem;
 }
+
+.features > .feature > .featured-post {
+  font-family: "Raleway", serif;
+  position: absolute;
+  height: 360px;
+  width: 960px;
+  padding: 3rem;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  top: 60%;
+  right: 0;
+}
+
+.features > .feature > .featured-post > .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.features > .feature > .featured-post > .header > span {
+  color: #333333;
+  margin-left: 1rem;
+}
+
+.features > .feature > .featured-post > h2 {
+  margin-bottom: 2rem;
+}
+
+.features > .feature > .featured-post > p {
+  margin-bottom: 2rem;
+  line-height: 200%;
+}
+
+.features > .feature > .featured-post > a {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #7C4EE4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #7C4EE4;
+  height: 56px;
+  width: 180px;
+}
+
+
