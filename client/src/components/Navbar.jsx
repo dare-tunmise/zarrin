@@ -10,7 +10,7 @@ const Navbar = () => {
                     <span>Zarrin</span>
                 </div>
                 <ul className='nav-list'>
-                    <li><a href="">Blog</a></li>
+                    <li><a className='active' href="">Blog</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Search</a></li>
                     <li><a href="">Contact Us</a></li>
