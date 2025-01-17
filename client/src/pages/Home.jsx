@@ -1,4 +1,5 @@
 import Heroimage from '../assets/hero-image.png'
+import Vrface from '../assets/vrface.jpg'
 const Home = () => {
     
     return ( 
@@ -13,6 +14,17 @@ const Home = () => {
 
                 <div className='hero-image'>
                     <img src={Heroimage} alt="" />
+                </div>
+            </div>
+
+            <div className="features">
+                <div className="feature">
+                    <div className="featured-img">
+                        <img src={Vrface} alt="" />
+                    </div>
+                    <div className="featured-post">
+
+                    </div>
                 </div>
             </div>
         </>
