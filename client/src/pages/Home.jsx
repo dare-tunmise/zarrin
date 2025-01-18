@@ -105,6 +105,14 @@ const Home = () => {
                     <h1>Popular Post</h1>
                     <a href="">View all</a>
                 </div>
+                <div className="grid-container">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </>
      );
