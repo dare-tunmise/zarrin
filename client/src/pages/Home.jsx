@@ -2,6 +2,7 @@ import Heroimage from '../assets/hero-image.png'
 import Vrface from '../assets/vrface.jpg'
 import Beach from '../assets/beach.jpg'
 import Desk from '../assets/desk.jpg'
+import BlogCard from '../components/BlogCard'
 const Home = () => {
     
     return ( 
