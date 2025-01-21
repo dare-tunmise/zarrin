@@ -72,8 +72,11 @@ header > nav > ul > li > a.button {
   background-color: #7C4EE4;
   color: #FFFFFF;
   font-family: "Raleway", serif;
-  display: flex;
-  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  /* gap: 1.5rem; */
+  /* display: flex;
+  align-items: start; */
   padding: 7rem 4rem;
   gap: 5rem;
 }
@@ -105,6 +108,15 @@ header > nav > ul > li > a.button {
   border-radius: 8px;
   height: 56px;
   width: 180px;
+}
+
+.hero > .hero-image {
+  width: 100%;
+  max-width: 608px;
+}
+
+.hero > .hero-image img {
+  width: 100%;
 }
 
 .features {
@@ -415,12 +427,8 @@ header > nav > ul > li > a.button {
 
 .popular > .grid-container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
-}
-
-.popular > .grid-container > div:nth-child(1) {
-  
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1.5rem;
 }
 
 
