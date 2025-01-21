@@ -1,4 +1,4 @@
-const BlogCard = () => {
+const BlogCard = ({ image, alt, tag, date, titile, snippet, url  }) => {
     return ( 
             <div className="grid-item item1">
                 <div className='item1-img'><img src={Vrface} alt="" /></div>
