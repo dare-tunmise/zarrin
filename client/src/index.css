@@ -65,6 +65,25 @@ header > nav > ul > li > a.button {
   width: 180px;
 }
 
+/* header > nav > ul > li > a.button:before{
+  background: #7C4EE4;
+  height: 150px;
+  width: 200px;
+  top: 100%;
+  left: 100%;
+  transition:  all 0.7s;
+}
+
+header > nav > ul > li > a.button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+header > nav > ul > li > a.button:active::before{
+  background: #7C4EE4;
+  transition: background 0s;
+} */
+
 .hero {
   background-image: url(../src/assets/bottom-vector.png), url(../src/assets/bottom-vector.png);
   background-repeat: no-repeat, no-repeat;
@@ -429,6 +448,12 @@ header > nav > ul > li > a.button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    padding: 3rem 1.5rem;
+  }
 }
 
 
