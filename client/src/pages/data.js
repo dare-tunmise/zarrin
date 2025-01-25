@@ -75,7 +75,40 @@ export default  [
         date: "4 March 2023",
         title: "How to Be a Dancer in 2023 with proper skills?",
         snippet: "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive"
-    }
+    },
+    {
+        id: 8,
+        img: {
+            src: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "man in gray quarter-sleeved shirt singing"
+        },
+        tag: "Travel",
+        date: "2 March 2023",
+        title: "Who is the best singer on chart?Know him?",
+        snippet: "chart by Billboard which ranks the all-time greatest artists based on their performance on the weekly Billboard Hot 100 and  "
+    },
+    {
+        id: 9,
+        img: {
+            src: "https://images.unsplash.com/photo-1592478457432-38ed2af3ee03?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "man in black jacket holding blue and white plastic cup"
+        },
+        tag: "Development",
+        date: "28 February 2023",
+        title: "How to start export import business from home?",
+        snippet: "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"
+    },
+    {
+        id: 10,
+        img: {
+            src: "https://images.unsplash.com/photo-1603201667230-bd139210db18?q=80&w=2976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "woman in black long sleeve shirt sitting beside woman in gray sweater"
+        },
+        tag: "Sports",
+        date: "1 January 2023",
+        title: "Make some drinks with chocolates and milk",
+        snippet: "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive"
+    },
 
  
 ]
