@@ -243,12 +243,11 @@ header > nav > ul > li > a.button:active::before{
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  background-color: red;
   gap: 2rem;
 }
 
 
-.grid-container .grid-item:nth-child(1){
+.latest > .grid-container .grid-item:nth-child(1){
   grid-column: 1/13;
   grid-row: 1;
   display: flex;
@@ -393,6 +392,7 @@ header > nav > ul > li > a.button:active::before{
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1.5rem;
 }
+
 
 @media screen and (max-width: 900px) {
   .hero {

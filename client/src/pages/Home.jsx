@@ -5,8 +5,6 @@ import Desk from '../assets/desk.jpg'
 import BlogCard from '../components/BlogCard'
 import data from "../data"
 const Home = () => {
-
-    // const BlogEntry = data.map()
     
     return ( 
         <>
@@ -110,12 +108,10 @@ const Home = () => {
                     <a href="">View all</a>
                 </div>
                 <div className="grid-container">
-                    {/* <BlogCard />
-                    <BlogCard />
-                    <BlogCard /> */}
-
-                    <div>
-                           <div className="header">
+                    <div class="grid-item item">
+                        <div className='item-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                        <div className='item-content'>
+                            <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
                             </div>
@@ -123,9 +119,12 @@ const Home = () => {
                            <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
                           </p>
                            <a href="">Read More</a>
+                        </div>
                     </div>
-                    <div>
-                           <div className="header">
+                    <div class="grid-item item">
+                        <div className='item-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                        <div className='item-content'>
+                            <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
                             </div>
@@ -133,9 +132,12 @@ const Home = () => {
                            <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
                           </p>
                            <a href="">Read More</a>
+                        </div>
                     </div>
-                    <div>
-                           <div className="header">
+                    <div class="grid-item item">
+                        <div className='item-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                        <div className='item-content'>
+                            <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
                             </div>
@@ -143,8 +145,8 @@ const Home = () => {
                            <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
                           </p>
                            <a href="">Read More</a>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </>
