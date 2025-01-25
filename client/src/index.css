@@ -357,7 +357,7 @@ header > nav > ul > li > a.button:active::before{
 
 .popular > .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   gap: 1.5rem;
 }
 
@@ -366,6 +366,19 @@ header > nav > ul > li > a.button:active::before{
   line-height: 200%;
 }
 
+footer {
+  text-align: center;
+}
+
+footer > .footer-one {
+  background-color: #7C4EE4;
+  font-family: "Raleway", serif;
+  line-height: 200%;
+}
+
+footer > .footer-one > div > input {
+  font-family: "Raleway", serif;
+}
 
 @media screen and (max-width: 900px) {
   .hero {
