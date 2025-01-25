@@ -42,6 +42,40 @@ export default  [
         date: "10 March 2023",
         title: "How to Be a Professional Footballer in 2023",
         snippet: "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive"
+    },
+    {
+        id: 5,
+        img: {
+            src: "https://images.unsplash.com/photo-1601999007938-f584b47324ac?q=80&w=2638&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "yellow train on rail tracks during daytime"
+        },
+        tag: "Travel",
+        date: "8 March 2023",
+        title: "Train Or Bus Journey?Which one suits?",
+        snippet: "The choice between a train or bus journey depends on various factors such as the distance of the journey, the time available, the cost, and person "
+    },
+    {
+        id: 6,
+        img: {
+            src: "https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=2762&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "MacBook Pro showing vegetable dish"
+        },
+        tag: "Development",
+        date: "6 March 2023",
+        title: "Best Website to research for your  next project",
+        snippet: "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs "
+    },
+    {
+        id: 7,
+        img: {
+            src: "https://images.unsplash.com/photo-1548354797-6b1c0d36b3af?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "man jumping on gray metal railings"
+        },
+        tag: "Sports",
+        date: "4 March 2023",
+        title: "How to Be a Dancer in 2023 with proper skills?",
+        snippet: "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive"
     }
+
  
 ]

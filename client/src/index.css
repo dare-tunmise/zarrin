@@ -254,22 +254,22 @@ header > nav > ul > li > a.button:active::before{
   align-items: start;
 }
 
-.grid-container .grid-item:nth-child(2){
+.latest > .grid-container .grid-item:nth-child(2){
   grid-column: 1/5;
   grid-row: 2;
 }
 
-.grid-container .grid-item:nth-child(3){
+.latest > .grid-container .grid-item:nth-child(3){
   grid-column: 5/9;
   grid-row: 2;
 }
 
-.grid-container .grid-item:nth-child(4){
+.latest > .grid-container .grid-item:nth-child(4){
   grid-column: 9/13;
   grid-row: 2;
 }
 
-.grid-container .grid-item:nth-child(1).item > .item-img {
+.latest > .grid-container .grid-item:nth-child(1).item > .item-img {
   width: 100%;
   max-width: 712px;
   height: 456px;
@@ -291,7 +291,7 @@ header > nav > ul > li > a.button:active::before{
   border-radius: 1rem;
 }
 
-.grid-container .grid-item:nth-child(1).item > .item-content {
+.latest > .grid-container .grid-item:nth-child(1).item > .item-content {
   font-family: "Raleway", serif;
   padding: 3rem;
   border-radius: 1rem;
@@ -318,7 +318,7 @@ header > nav > ul > li > a.button:active::before{
   line-height: 200%;
 }
 
-.grid-container .grid-item:nth-child(1).item > .item-content > a {
+.latest > .grid-container .grid-item:nth-child(1).item > .item-content > a {
   text-decoration: none;
   color: #7C4EE4;
   padding: 10px 20px;
@@ -332,38 +332,6 @@ header > nav > ul > li > a.button:active::before{
   text-decoration: underline;
   color: #7C4EE4;
 }
-
-
-/* .projects {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
-}
-
-.projects img {
-  max-width: 100%;
-}
-
-.projects a {
-  text-align: center;
-  background: gray;
-  padding: 20px;
-}
-
-.projects a:nth-child(1){
-  grid-column: 1/12;
-  grid-row: 1;
-}
-
-.projects a:nth-child(2){
-  grid-column: 1/6;
-  grid-row: 2;
-}
-
-.projects a:nth-child(3){
-  grid-column: 7/12;
-  grid-row: 2;
-} */
 
 .popular {
   font-family: "Raleway", serif;
@@ -391,6 +359,11 @@ header > nav > ul > li > a.button:active::before{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1.5rem;
+}
+
+.popular > .grid-container > .item > .item-content > p {
+  margin-bottom: 2rem;
+  line-height: 200%;
 }
 
 

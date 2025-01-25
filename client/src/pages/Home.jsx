@@ -1,7 +1,5 @@
 import Heroimage from '../assets/hero-image.png'
 import Vrface from '../assets/vrface.jpg'
-import Beach from '../assets/beach.jpg'
-import Desk from '../assets/desk.jpg'
 import data from './data'
 import BlogCard from '../components/BlogCard'
 
@@ -63,7 +61,7 @@ const Home = () => {
                     <a href="">View all</a>
                 </div>
                 <div className="grid-container">
-                    { entryElements }
+                    { entryElements.slice(0, 4) }
                 </div>
             </div>
 
@@ -73,7 +71,8 @@ const Home = () => {
                     <a href="">View all</a>
                 </div>
                 <div className="grid-container">
-                    <div class="grid-item item">
+                   { entryElements.slice(4, 7) }
+                    {/* <div class="grid-item item">
                         <div className='item-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
                         <div className='item-content'>
                             <div className="header">
@@ -111,7 +110,7 @@ const Home = () => {
                           </p>
                            <a href="">Read More</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
