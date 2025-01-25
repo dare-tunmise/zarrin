@@ -47,9 +47,9 @@ const Home = () => {
                     <a href="">View all</a>
                 </div>
                 <div className="grid-container">
-                    <div className="grid-item item1">
-                        <div className='item1-img'><img src={Vrface} alt="" /></div>
-                        <div className='item1-content'>
+                    <div className="grid-item item">
+                        <div className='item-img'><img src={Vrface} alt="" /></div>
+                        <div className='item-content'>
                             <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
@@ -60,9 +60,9 @@ const Home = () => {
                            <a href="">Read More</a>
                         </div>
                     </div>
-                    <div class="grid-item item2">
-                        <div className='item1-img'><img src={Beach} alt="" /></div>
-                        <div className='item1-content'>
+                    <div class="grid-item item">
+                        <div className='item-img'><img src={Beach} alt="" /></div>
+                        <div className='item-content'>
                             <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
@@ -73,9 +73,9 @@ const Home = () => {
                            <a href="">Read More</a>
                         </div>
                     </div>
-                    <div class="grid-item item2">
-                        <div className='item1-img'><img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
-                        <div className='item1-content'>
+                    <div class="grid-item item">
+                        <div className='item-img'><img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                        <div className='item-content'>
                             <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
@@ -86,9 +86,9 @@ const Home = () => {
                            <a href="">Read More</a>
                         </div>
                     </div>
-                    <div class="grid-item item2">
-                        <div className='item1-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
-                        <div className='item1-content'>
+                    <div class="grid-item item">
+                        <div className='item-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                        <div className='item-content'>
                             <div className="header">
                                 <h5>DEVELOPMENT</h5>
                                 <span>16 March 2023</span>
