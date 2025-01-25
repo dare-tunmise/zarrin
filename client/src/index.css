@@ -243,7 +243,7 @@ header > nav > ul > li > a.button:active::before{
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  /* background-color: red; */
+  background-color: red;
   gap: 2rem;
 }
 
@@ -251,6 +251,8 @@ header > nav > ul > li > a.button:active::before{
 .grid-container .grid-item:nth-child(1){
   grid-column: 1/13;
   grid-row: 1;
+  display: flex;
+  align-items: start;
 }
 
 .grid-container .grid-item:nth-child(2){
@@ -269,11 +271,10 @@ header > nav > ul > li > a.button:active::before{
 }
 
 
-.item1 {
-  grid-area: item1;
+/* .item1 {
   display: flex;
   align-items: start;
-}
+} */
 
 .item1 > .item1-img {
   width: 100%;

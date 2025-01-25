@@ -3,7 +3,10 @@ import Vrface from '../assets/vrface.jpg'
 import Beach from '../assets/beach.jpg'
 import Desk from '../assets/desk.jpg'
 import BlogCard from '../components/BlogCard'
+import data from "../data"
 const Home = () => {
+
+    // const BlogEntry = data.map()
     
     return ( 
         <>
@@ -37,7 +40,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* latest post */}
+            {/* latest post or our recents post*/}
             <div className="latest">
                <div className="header">
                     <h1>Our Recent Post</h1>
@@ -107,6 +110,10 @@ const Home = () => {
                     <a href="">View all</a>
                 </div>
                 <div className="grid-container">
+                    {/* <BlogCard />
+                    <BlogCard />
+                    <BlogCard /> */}
+
                     <div>
                            <div className="header">
                                 <h5>DEVELOPMENT</h5>
