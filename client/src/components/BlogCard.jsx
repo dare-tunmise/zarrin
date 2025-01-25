@@ -1,7 +1,7 @@
 const BlogCard = ({ img, tag, date, title, snippet}) => {
     return ( 
         <div class="grid-item item">
-            <div className='item-img'><img src={img} alt="" /></div>
+            <div className='item-img'><img src={img.src} alt={img.alt} /></div>
             <div className='item-content'>
                 <div className="header">
                     <h5>{tag}</h5>

@@ -1,9 +1,9 @@
-export default [
+export default  [
     {
         id: 1,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
-            alt: "Mount Fuji"
+            src: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=2956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "man in black crew neck t-shirt wearing black sunglasses holding black smartphone"
         },
         tag: "Development",
         date: "16 March 2023",
@@ -13,8 +13,8 @@ export default [
     {
         id: 2,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
-            alt: "Mount Fuji"
+            src: "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=2507&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "plane parked beside the trees on seashore"
         },
         tag: "Travel",
         date: "14 March 2023",
@@ -24,8 +24,8 @@ export default [
     {
         id: 3,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
-            alt: "Mount Fuji"
+            src: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "silver iMac with keyboard and trackpad inside room"
         },
         tag: "Development",
         date: "12 March 2023",
@@ -35,11 +35,11 @@ export default [
     {
         id: 4,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
-            alt: "Mount Fuji"
+            src: "https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            alt: "white Wilson soccer ball beside net goal"
         },
         tag: "Sports",
-        date: "12 March 2023",
+        date: "10 March 2023",
         title: "How to Be a Professional Footballer in 2023",
         snippet: "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive"
     }

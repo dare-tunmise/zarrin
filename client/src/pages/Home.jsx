@@ -2,9 +2,27 @@ import Heroimage from '../assets/hero-image.png'
 import Vrface from '../assets/vrface.jpg'
 import Beach from '../assets/beach.jpg'
 import Desk from '../assets/desk.jpg'
+import data from './data'
 import BlogCard from '../components/BlogCard'
-import data from "../data"
+
+
+
 const Home = () => {
+
+    const entryElements = data.map((post)=> {
+
+        return(
+        <BlogCard 
+          key={post.id}
+          img={post.img}
+          tag={post.tag}
+          date={post.date}
+          title={post.title}
+          snippet={post.snippet}
+        
+        />
+        )
+    })
     
     return ( 
         <>
@@ -45,60 +63,7 @@ const Home = () => {
                     <a href="">View all</a>
                 </div>
                 <div className="grid-container">
-                    <div className="grid-item item">
-                        <div className='item-img'><img src={Vrface} alt="" /></div>
-                        <div className='item-content'>
-                            <div className="header">
-                                <h5>DEVELOPMENT</h5>
-                                <span>16 March 2023</span>
-                            </div>
-                            <h2>How to make a Game look more attractive with New VR & AI Technology</h2>
-                           <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
-                          </p>
-                           <a href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="grid-item item">
-                        <div className='item-img'><img src={Beach} alt="" /></div>
-                        <div className='item-content'>
-                            <div className="header">
-                                <h5>DEVELOPMENT</h5>
-                                <span>16 March 2023</span>
-                            </div>
-                            <h2>How to make a Game look more attractive with New VR & AI Technology</h2>
-                           <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
-                          </p>
-                           <a href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="grid-item item">
-                        <div className='item-img'><img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
-                        <div className='item-content'>
-                            <div className="header">
-                                <h5>DEVELOPMENT</h5>
-                                <span>16 March 2023</span>
-                            </div>
-                            <h2>How to make a Game look more attractive with New VR & AI Technology</h2>
-                           <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
-                          </p>
-                           <a href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="grid-item item">
-                        <div className='item-img'><img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
-                        <div className='item-content'>
-                            <div className="header">
-                                <h5>DEVELOPMENT</h5>
-                                <span>16 March 2023</span>
-                            </div>
-                            <h2>How to make a Game look more attractive with New VR & AI Technology</h2>
-                           <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
-                          </p>
-                           <a href="">Read More</a>
-                        </div>
-                    </div>
-                    {/* <div class="grid-item item3">3</div>
-                    <div class="grid-item item4">4</div> */}
+                    { entryElements }
                 </div>
             </div>
 
