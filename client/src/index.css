@@ -397,6 +397,21 @@ footer > .footer-one > div > input {
 footer > .footer-one > div > button {
   font-family: "Raleway", serif;
   height: 56px;
+  padding: auto 1rem;
+}
+
+footer > ul {
+  margin: 1rem 0;
+}
+
+footer > ul > li{
+  font-family: "Raleway", serif;
+  display: inline;
+  padding: 1.5rem;
+}
+footer > ul > li > a {
+  text-decoration: none;
+  color: #150E06;
 }
 
 @media screen and (max-width: 900px) {
