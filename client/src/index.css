@@ -91,11 +91,11 @@ header > nav > ul > li > a.button:active::before{
   background-color: #7C4EE4;
   color: #FFFFFF;
   font-family: "Raleway", serif;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  /* gap: 1.5rem; */
-  /* display: flex;
-  align-items: start; */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto)); */
+  display: flex;
+  align-items: start; 
+  justify-content: flex-start;
   padding: 7rem 4rem;
   gap: 5rem;
 }
@@ -136,6 +136,7 @@ header > nav > ul > li > a.button:active::before{
 
 .hero > .hero-image img {
   width: 100%;
+  height: 576px;
 }
 
 .features {
@@ -422,6 +423,39 @@ footer > ul > li > a {
   .popular {
     padding: 3rem 1.5rem;
   }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 830px) {
+
+  .hero {
+    flex-direction: column;
+  }
+
+
+  .grid-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .latest > .grid-container .grid-item:nth-child(1) {
+    grid-column: 1/7;
+  }
+
+  .latest > .grid-container .grid-item:nth-child(2) {
+    grid-column: 1/4;
+  }
+
+  .latest > .grid-container .grid-item:nth-child(3) {
+    grid-column: 4/7;
+  }
+
+  .latest > .grid-container .grid-item:nth-child(4) {
+    grid-column: 1/7;
+  }
+
 }
 
 
