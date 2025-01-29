@@ -370,7 +370,7 @@ header > nav > ul > li > a.button:active::before{
 
 .popular > .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 1.5rem;
 }
 
@@ -452,7 +452,7 @@ footer > ul > li > a {
   }
 
   .hero-image img {
-    max-width: 90%; /* Reduce image size for smaller screens */
+    max-width: 100%; /* Reduce image size for smaller screens */
     margin: 0 auto; /* Center image */
   }
 
@@ -467,6 +467,7 @@ footer > ul > li > a {
 
   .latest > .grid-container .grid-item:nth-child(1) {
     grid-column: 1/7;
+    flex-direction: column;
   }
 
   .latest > .grid-container .grid-item:nth-child(2) {
@@ -479,6 +480,10 @@ footer > ul > li > a {
 
   .latest > .grid-container .grid-item:nth-child(4) {
     grid-column: 1/7;
+  }
+
+  .popular > .grid-container {
+    grid-template-columns: 1fr;
   }
 
 }
